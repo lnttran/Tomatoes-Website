@@ -53,7 +53,7 @@ function ChatBox() {
         const data = {
             message: message
         }
-
+        // send di
         //send the POST request to the openAi api with the specified URL, data payload, and headers
         //send json data to rest api 
         axios.post(url, data).then(async (response) => {
