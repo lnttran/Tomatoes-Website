@@ -33,9 +33,6 @@ export const POST = async function handler(req: Request, res: NextApiResponse) {
             headers: headers,
             body: JSON.stringify(data)
         });
-
-        let responseText = await response.text();
-        //tu n
         if (!response.ok) {
             // If the response status is not okay, handle the error
             throw new Error(`HTTP error! Status: ${response.status}`);

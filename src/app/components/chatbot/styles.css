@@ -18,7 +18,7 @@
     background-color: #e0f7fa;
     padding: 8px;
     margin: 5px 0;
-    border-radius: 8px;
+    border-radius: 15px 0px 15px 15px;
     max-width: 80%;
     margin-left: auto;
     word-wrap: break-word;
@@ -30,7 +30,7 @@
     background-color: #e8eaf6;
     padding: 8px;
     margin: 5px 0;
-    border-radius: 8px;
+    border-radius: 15px 15px 15px 0px;
     max-width: 80%;
     margin-right: auto;
     word-wrap: break-word;
